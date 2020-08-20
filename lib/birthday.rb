@@ -11,6 +11,8 @@ def happy_birthday(birthday_kids)
 end
 
 def age_appropriate_birthday(age)
+  if age < 10
+    return "You are too old for this."
 
 end
   
